@@ -1,4 +1,4 @@
-# Docker_Notes
+# Docker
 
 Docker is a platform / program - running, building, managing and deploying containers for application purpose.
 
@@ -73,29 +73,7 @@ For system-wide information on Docker
 To get a list of all available Docker commands type docker on the console
 
       # docker
-      
-      # docker inspect
-To list all the available Docker images on our server issue the following command
-
-      # docker images
-      
-      # docker ps
-      
-      # docker ps -a
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ Below command is for research purpose to know what is written in docker image and container if it exists already or created by someone
+ 
+      # docker inspect (image name/id or container id)  
