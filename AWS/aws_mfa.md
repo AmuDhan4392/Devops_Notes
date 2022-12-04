@@ -63,6 +63,6 @@ Logging into AWS can be done in different ways either using paswword or through 
  
   ![4](https://user-images.githubusercontent.com/119385929/205499723-2747c568-5cb2-4f68-8ea3-016c2e4306b0.png)
   
-   #### 6. Finally, logout and login to our AWS account where MFA has been enabled successfully. Type the code which is chosen on the authenticator app.
+   #### 6. Finally, logout and login to our AWS account where MFA has been enabled successfully. Type the code which is chosen on the authenticator app
   
   ![5](https://user-images.githubusercontent.com/119385929/205499724-5de38456-cec5-4525-8070-921898230dfe.png)
