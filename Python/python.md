@@ -91,5 +91,12 @@ Functions help break our program into smaller and modular chunks. As our program
         def function_name(parameters):
            """ statement(s) ""“
 
+Above shown is a function definition that consists of the following components.
+
+   1. Keyword def that marks the start of the function header.
+   2. A function name to uniquely identify the function. Function naming follows the same rules of writing identifiers in python.
+   3. Parameters through which we pass values to a function. 
+   4. A colon (:) to mark the end of the function header.
+   5. One or more valid python statements that make up the function body. Statements must have the same indentation level.
 
 
