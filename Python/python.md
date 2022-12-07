@@ -64,7 +64,7 @@ they are not specific to python, they exist in pretty much every programming lan
 We use variables to temporarily store data in a computer’s memory. 
 Variables can be assigned with single or multiple values.
  
-	  Refer:   https://github.com/AmuDhan4392/Devops_Notes/blob/main/Python/Examples.py
+https://github.com/AmuDhan4392/Devops_Notes/blob/main/Python/Examples.py
   
 #### Keywords:
 A python keyword is a reserved word which you can’t use as a name of your variable, class, function etc. 
