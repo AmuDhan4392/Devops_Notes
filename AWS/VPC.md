@@ -42,6 +42,10 @@
   A subnet is a range of IP addresses in your VPC.
   We can connect a subnet to the internet and route traffic to and from subnets using route tables.
 
+There is two types of subnet
+1. Public subnet
+2. Private subnet
+
 #### Route table
 
   A route table contains a set of rules, called routes, that are used to determine where network traffic from our VPC is directed. 
