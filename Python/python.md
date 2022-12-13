@@ -99,4 +99,94 @@ Above shown is a function definition that consists of the following components.
    4. A colon (:) to mark the end of the function header.
    5. One or more valid python statements that make up the function body. Statements must have the same indentation level.
 
+#### The "input" Statement and Combining Strings
 
+The value of variables was defined or hard coded into the source code. 
+To allow flexibility, we might want to take the input from the user. In Python, we have the input() function to allow this.
+In Other words, Python has an input function which lets us ask a user for some text input. 
+We call this function to tell the program to stop and wait for the user to key in the data.
+
+	Example:
+	num = input('Enter a number: ') 
+        print(num)
+
+#### Data Types and Data Structures:
+
+  1. Strings
+  2. Numbers
+  3. Tuples
+  4. Lists
+  5. Sets
+  6. Dictionaries
+
+##### Numbers:
+
+There are three numeric data types:
+  1. Integer
+  2. Float
+  3. Complex
+
+They are defined as  int, float and complex in python. We can use type() function to know which class a variable or a value belongs to.
+
+	Example:
+	num = 5678
+	rate = 25.25
+	comp = 6j+1
+
+##### Strings:
+
+The value of the string data type is string literal. They use to store text.
+
+	Var 1 = “I am okay”
+	Var 2 = “python tutorial”
+
+##### Lists
+
+A Sequence of mutable objects.  It is one of the most used datatype in Python and is very flexible. All the items in a list do not need to be of the same type. 
+Items separated by commas are enclosed within brackets [ ]
+
+	Names = [‘john’, ‘rahul’, 100, ’mary’, 5.25]
+
+We can use the slicing operator [ ] to extract an item or a range of items from a list. The index starts from 0 in Python.
+Lists are mutable, meaning, the value of elements of a list can be altered.
+
+Adding new items to a list is also easy. (append, extend)
+
+##### Tuples
+
+They are similar to list where we can use them to store a list of items. But unlike list we can  not modify them. 
+We say tuples are immutable (cannot mutate or change them). We can only get information about the tuple by indexing.
+	
+It is defined within parentheses () where items are separated by commas.
+
+	Weeks  = (“Sunday”, “Monday”,”Tuesday”,”Wednesday”,”Thursday”,”Friday”,”Saturday”)
+
+##### Sets
+
+An unordered collection of immutable data which has no duplicate elements. Set is defined by values separated by comma inside braces { }.
+We can perform set operations like union, intersection on two sets. Sets have unique values. They eliminate duplicates.
+Since, set are unordered collection, indexing has no meaning. Hence, the slicing operator [] does not work.
+
+	a = {1,2,3,4,5}
+	b = {1,2,3,3,4,4,4,5,5,6}
+	n = set([0, 1, 2, 3, 4, 5])
+
+
+##### Dictionaries
+
+An unordered collection of items. It is generally used when we have a huge amount of data. Dictionaries are optimized for retrieving data. 
+We must know the key to retrieve the value.
+In Python, dictionaries are defined within braces {} with each item being a pair in the form 
+
+key : value. Key and value can be of any type.
+
+We use key to retrieve the respective value. But not the other way around.
+
+	d = {} creates empty dictionary
+	d = {1 : ‘john’, 2:’kom’ , 3:’Alice’, 4:100, 5: 122.36}
+
+##### Conversion of Data Types:
+
+We can convert between different data types by using different type conversion functions like int(), float(), str(), etc.
+     
+    
