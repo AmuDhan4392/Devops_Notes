@@ -43,3 +43,16 @@ def areaoftriangle(b,h):
     print("The area of a triangle of base",b,"and height",h,"is",formula_area,)
    
 areaoftriangle(2,20)
+
+# Input Statement:
+
+def name():
+ """ Input first and last name, combine to one string and print """
+   	 fname = input("Enter your first name: ")
+   	 lname = input("Enter your last name: ")
+     fullname = fname + " " + lname
+
+     print("Your name is:", fullname)
+
+name()
+
