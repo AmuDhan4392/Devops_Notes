@@ -66,5 +66,6 @@ GREEN: Success with no changes
 
 ![ansible 1](https://user-images.githubusercontent.com/119385929/209457910-436e8451-c03e-4cb3-b201-06185a3d348c.png)
 
+![image](https://user-images.githubusercontent.com/119385929/209458558-499d25cb-27b7-4c47-ba1a-b6da753ae418.png)
 
 
