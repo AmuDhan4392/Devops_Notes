@@ -28,7 +28,20 @@ Already we have configured the codedeploy agent in production machine, if not en
 
   ![image](https://user-images.githubusercontent.com/119385929/211189064-882bd118-c98a-453d-8b07-78efedc20885.png)
 
-Create codedeploy group
+Created codedeploy group
 
   ![image](https://user-images.githubusercontent.com/119385929/211188799-d65cd4b2-f95c-4fc3-b518-346086cf86b2.png)
+  
+ Now deploy the application by selecting the application name, provide the required information from dropdown and then create the deployment
+ 
+  ![image](https://user-images.githubusercontent.com/119385929/211190813-71924e59-6e36-4b18-936b-947298ab5796.png)
+
+  ![image](https://user-images.githubusercontent.com/119385929/211190870-d176a829-c87e-487a-8f6c-e097b51ef189.png)
+
+View the events from deployment lifecycle events from the bottom of the window
+
+  ![image](https://user-images.githubusercontent.com/119385929/211190922-9e514bc1-d843-414a-b637-b3134f4e5ed9.png)
+
+  
+
 
